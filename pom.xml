@@ -47,8 +47,8 @@
   </modules>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.6</maven.compiler.source>
-    <maven.compiler.target>1.6</maven.compiler.target>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
     <native.arch>${os.arch}</native.arch>
     <native.path.resolved>${native.path}</native.path.resolved>
     <native.library-path.resolved>${native.library-path}</native.library-path.resolved>

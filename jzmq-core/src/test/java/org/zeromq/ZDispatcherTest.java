@@ -223,7 +223,7 @@ public class ZDispatcherTest {
         }
         System.out.println(MessageFormat.format("performanceTest message sent:{0}", nMessages));
         latch.await();
-        System.out.println(MessageFormat.format("performanceTest throughput:{0} messages/seconds", nMessages / ((System.currentTimeMillis() - start) / 1000)));
+        // System.out.println(MessageFormat.format("performanceTest throughput:{0} messages/seconds", nMessages / ((System.currentTimeMillis() - start) / 1000)));
 
         dispatcher.shutdown();
         ctx.destroy();
